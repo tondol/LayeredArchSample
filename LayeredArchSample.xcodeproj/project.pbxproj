@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EF063601F81764B00F80449 /* NewsListPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0635F1F81764B00F80449 /* NewsListPresenterSpec.swift */; };
+		2EF063651F817DB600F80449 /* QuickHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF063641F817DB600F80449 /* QuickHelper.swift */; };
 		2EF55D0E1F80FA13009248EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D0D1F80FA13009248EA /* AppDelegate.swift */; };
-		2EF55D101F80FA13009248EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D0F1F80FA13009248EA /* ViewController.swift */; };
+		2EF55D101F80FA13009248EA /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D0F1F80FA13009248EA /* NewsListViewController.swift */; };
 		2EF55D131F80FA13009248EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF55D111F80FA13009248EA /* Main.storyboard */; };
 		2EF55D151F80FA13009248EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF55D141F80FA13009248EA /* Assets.xcassets */; };
 		2EF55D181F80FA13009248EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF55D161F80FA13009248EA /* LaunchScreen.storyboard */; };
 		2EF55D231F80FA14009248EA /* LayeredArchSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D221F80FA14009248EA /* LayeredArchSampleTests.swift */; };
+		2EF55D321F80FA78009248EA /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D311F80FA78009248EA /* NewsDetailViewController.swift */; };
+		2EF55D371F80FAD8009248EA /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D361F80FAD8009248EA /* News.swift */; };
+		2EF55D391F80FB3C009248EA /* NewsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D381F80FB3C009248EA /* NewsUseCase.swift */; };
+		2EF55D3B1F80FB44009248EA /* NewsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D3A1F80FB44009248EA /* NewsStore.swift */; };
+		2EF55D3D1F80FB4C009248EA /* NewsStoreMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D3C1F80FB4C009248EA /* NewsStoreMock.swift */; };
+		2EF55D3F1F813D00009248EA /* NewsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D3E1F813D00009248EA /* NewsListPresenter.swift */; };
+		2EF55D421F8144A2009248EA /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D411F8144A2009248EA /* NewsCell.swift */; };
+		2EF55D451F815142009248EA /* NewsDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D441F815142009248EA /* NewsDetailPresenter.swift */; };
+		2EF55D481F81547C009248EA /* UIViewController+Instantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF55D471F81547C009248EA /* UIViewController+Instantiable.swift */; };
+		5C4371D8BC0777C8128DF721 /* Pods_LayeredArchSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16ADE9578C27704DE077924C /* Pods_LayeredArchSample.framework */; };
+		DAB431FA415B2B14C8D8A87F /* Pods_LayeredArchSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E7F601080A5A31ED2C099F /* Pods_LayeredArchSampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16ADE9578C27704DE077924C /* Pods_LayeredArchSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LayeredArchSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF0635F1F81764B00F80449 /* NewsListPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListPresenterSpec.swift; sourceTree = "<group>"; };
+		2EF063641F817DB600F80449 /* QuickHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickHelper.swift; sourceTree = "<group>"; };
 		2EF55D0A1F80FA13009248EA /* LayeredArchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayeredArchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF55D0D1F80FA13009248EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2EF55D0F1F80FA13009248EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EF55D0F1F80FA13009248EA /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		2EF55D121F80FA13009248EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EF55D141F80FA13009248EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EF55D171F80FA13009248EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +52,20 @@
 		2EF55D1E1F80FA14009248EA /* LayeredArchSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayeredArchSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF55D221F80FA14009248EA /* LayeredArchSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeredArchSampleTests.swift; sourceTree = "<group>"; };
 		2EF55D241F80FA14009248EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF55D311F80FA78009248EA /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		2EF55D361F80FAD8009248EA /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		2EF55D381F80FB3C009248EA /* NewsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUseCase.swift; sourceTree = "<group>"; };
+		2EF55D3A1F80FB44009248EA /* NewsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStore.swift; sourceTree = "<group>"; };
+		2EF55D3C1F80FB4C009248EA /* NewsStoreMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStoreMock.swift; sourceTree = "<group>"; };
+		2EF55D3E1F813D00009248EA /* NewsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListPresenter.swift; sourceTree = "<group>"; };
+		2EF55D411F8144A2009248EA /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		2EF55D441F815142009248EA /* NewsDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailPresenter.swift; sourceTree = "<group>"; };
+		2EF55D471F81547C009248EA /* UIViewController+Instantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Instantiable.swift"; sourceTree = "<group>"; };
+		4F84EB0735AB61F6B9CCE286 /* Pods-LayeredArchSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayeredArchSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LayeredArchSample/Pods-LayeredArchSample.release.xcconfig"; sourceTree = "<group>"; };
+		6013A3EFFCA23A34EB41D020 /* Pods-LayeredArchSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayeredArchSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LayeredArchSample/Pods-LayeredArchSample.debug.xcconfig"; sourceTree = "<group>"; };
+		670348D083B3FB57D945814B /* Pods-LayeredArchSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayeredArchSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LayeredArchSampleTests/Pods-LayeredArchSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6977F984FC6031DC0CB15F8C /* Pods-LayeredArchSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayeredArchSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LayeredArchSampleTests/Pods-LayeredArchSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		73E7F601080A5A31ED2C099F /* Pods_LayeredArchSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LayeredArchSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4371D8BC0777C8128DF721 /* Pods_LayeredArchSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +81,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB431FA415B2B14C8D8A87F /* Pods_LayeredArchSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EF063631F817DA900F80449 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2EF063641F817DB600F80449 /* QuickHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		2EF55D011F80FA13009248EA = {
 			isa = PBXGroup;
 			children = (
 				2EF55D0C1F80FA13009248EA /* LayeredArchSample */,
 				2EF55D211F80FA14009248EA /* LayeredArchSampleTests */,
 				2EF55D0B1F80FA13009248EA /* Products */,
+				447747780A3ABBA4C4F02539 /* Pods */,
+				FCE617280561A73549A16965 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +119,8 @@
 		2EF55D0C1F80FA13009248EA /* LayeredArchSample */ = {
 			isa = PBXGroup;
 			children = (
-				2EF55D0D1F80FA13009248EA /* AppDelegate.swift */,
-				2EF55D0F1F80FA13009248EA /* ViewController.swift */,
-				2EF55D111F80FA13009248EA /* Main.storyboard */,
-				2EF55D141F80FA13009248EA /* Assets.xcassets */,
-				2EF55D161F80FA13009248EA /* LaunchScreen.storyboard */,
+				2EF55D2F1F80FA51009248EA /* Resource */,
+				2EF55D301F80FA59009248EA /* Sources */,
 				2EF55D191F80FA13009248EA /* Info.plist */,
 			);
 			path = LayeredArchSample;
@@ -90,10 +129,124 @@
 		2EF55D211F80FA14009248EA /* LayeredArchSampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				2EF55D331F80FA86009248EA /* News */,
+				2EF063631F817DA900F80449 /* Helper */,
 				2EF55D221F80FA14009248EA /* LayeredArchSampleTests.swift */,
 				2EF55D241F80FA14009248EA /* Info.plist */,
 			);
 			path = LayeredArchSampleTests;
+			sourceTree = "<group>";
+		};
+		2EF55D2D1F80FA34009248EA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D351F80FAA8009248EA /* Infrastructure */,
+				2EF55D341F80FA9D009248EA /* Domain */,
+				2EF55D2E1F80FA3D009248EA /* Presentation */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2EF55D2E1F80FA3D009248EA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D401F81446A009248EA /* Cell */,
+				2EF55D3E1F813D00009248EA /* NewsListPresenter.swift */,
+				2EF55D0F1F80FA13009248EA /* NewsListViewController.swift */,
+				2EF55D441F815142009248EA /* NewsDetailPresenter.swift */,
+				2EF55D311F80FA78009248EA /* NewsDetailViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2EF55D2F1F80FA51009248EA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D111F80FA13009248EA /* Main.storyboard */,
+				2EF55D161F80FA13009248EA /* LaunchScreen.storyboard */,
+				2EF55D141F80FA13009248EA /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2EF55D301F80FA59009248EA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D431F814FD9009248EA /* Main */,
+				2EF55D2D1F80FA34009248EA /* News */,
+				2EF55D461F8153BB009248EA /* Helper */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		2EF55D331F80FA86009248EA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2EF0635F1F81764B00F80449 /* NewsListPresenterSpec.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2EF55D341F80FA9D009248EA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D361F80FAD8009248EA /* News.swift */,
+				2EF55D381F80FB3C009248EA /* NewsUseCase.swift */,
+				2EF55D3A1F80FB44009248EA /* NewsStore.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2EF55D351F80FAA8009248EA /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D3C1F80FB4C009248EA /* NewsStoreMock.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		2EF55D401F81446A009248EA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D411F8144A2009248EA /* NewsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2EF55D431F814FD9009248EA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D0D1F80FA13009248EA /* AppDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2EF55D461F8153BB009248EA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2EF55D471F81547C009248EA /* UIViewController+Instantiable.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		447747780A3ABBA4C4F02539 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6013A3EFFCA23A34EB41D020 /* Pods-LayeredArchSample.debug.xcconfig */,
+				4F84EB0735AB61F6B9CCE286 /* Pods-LayeredArchSample.release.xcconfig */,
+				670348D083B3FB57D945814B /* Pods-LayeredArchSampleTests.debug.xcconfig */,
+				6977F984FC6031DC0CB15F8C /* Pods-LayeredArchSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCE617280561A73549A16965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16ADE9578C27704DE077924C /* Pods_LayeredArchSample.framework */,
+				73E7F601080A5A31ED2C099F /* Pods_LayeredArchSampleTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EF55D271F80FA14009248EA /* Build configuration list for PBXNativeTarget "LayeredArchSample" */;
 			buildPhases = (
+				1CF0F5683AEA213B4F825849 /* [CP] Check Pods Manifest.lock */,
 				2EF55D061F80FA13009248EA /* Sources */,
 				2EF55D071F80FA13009248EA /* Frameworks */,
 				2EF55D081F80FA13009248EA /* Resources */,
+				A27A39F60DA07F3608506766 /* [CP] Embed Pods Frameworks */,
+				1E6DE8E7741C7527EA320799 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EF55D2A1F80FA14009248EA /* Build configuration list for PBXNativeTarget "LayeredArchSampleTests" */;
 			buildPhases = (
+				B7049F0B4364306CF45ED705 /* [CP] Check Pods Manifest.lock */,
 				2EF55D1A1F80FA14009248EA /* Sources */,
 				2EF55D1B1F80FA14009248EA /* Frameworks */,
 				2EF55D1C1F80FA14009248EA /* Resources */,
+				6256507F7122D717847EC62B /* [CP] Embed Pods Frameworks */,
+				876BCC5469A21D62F3D0E009 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,12 +353,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CF0F5683AEA213B4F825849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LayeredArchSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E6DE8E7741C7527EA320799 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LayeredArchSample/Pods-LayeredArchSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6256507F7122D717847EC62B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LayeredArchSampleTests/Pods-LayeredArchSampleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LayeredArchSampleTests/Pods-LayeredArchSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876BCC5469A21D62F3D0E009 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LayeredArchSampleTests/Pods-LayeredArchSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27A39F60DA07F3608506766 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LayeredArchSample/Pods-LayeredArchSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LayeredArchSample/Pods-LayeredArchSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7049F0B4364306CF45ED705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LayeredArchSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EF55D061F80FA13009248EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EF55D101F80FA13009248EA /* ViewController.swift in Sources */,
+				2EF55D391F80FB3C009248EA /* NewsUseCase.swift in Sources */,
+				2EF55D421F8144A2009248EA /* NewsCell.swift in Sources */,
+				2EF55D3D1F80FB4C009248EA /* NewsStoreMock.swift in Sources */,
+				2EF55D321F80FA78009248EA /* NewsDetailViewController.swift in Sources */,
+				2EF55D481F81547C009248EA /* UIViewController+Instantiable.swift in Sources */,
+				2EF55D451F815142009248EA /* NewsDetailPresenter.swift in Sources */,
+				2EF55D3F1F813D00009248EA /* NewsListPresenter.swift in Sources */,
+				2EF55D3B1F80FB44009248EA /* NewsStore.swift in Sources */,
+				2EF55D101F80FA13009248EA /* NewsListViewController.swift in Sources */,
+				2EF55D371F80FAD8009248EA /* News.swift in Sources */,
 				2EF55D0E1F80FA13009248EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,7 +491,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF063601F81764B00F80449 /* NewsListPresenterSpec.swift in Sources */,
 				2EF55D231F80FA14009248EA /* LayeredArchSampleTests.swift in Sources */,
+				2EF063651F817DB600F80449 /* QuickHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +636,7 @@
 		};
 		2EF55D281F80FA14009248EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6013A3EFFCA23A34EB41D020 /* Pods-LayeredArchSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +652,7 @@
 		};
 		2EF55D291F80FA14009248EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F84EB0735AB61F6B9CCE286 /* Pods-LayeredArchSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +668,7 @@
 		};
 		2EF55D2B1F80FA14009248EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670348D083B3FB57D945814B /* Pods-LayeredArchSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +686,7 @@
 		};
 		2EF55D2C1F80FA14009248EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6977F984FC6031DC0CB15F8C /* Pods-LayeredArchSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
